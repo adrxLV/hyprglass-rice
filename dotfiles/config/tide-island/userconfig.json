@@ -1,0 +1,87 @@
+{
+    "clockFormat": "24",
+    "dynamicIslandLeftSwipeItems": [
+        "cpu",
+        "date",
+        "ram"
+    ],
+    "dynamicIslandPrimaryAction": "toggleExpandedPlayer",
+    "dynamicIslandPrimaryButton": 3,
+    "dynamicIslandSecondaryAction": "toggleControlCenter",
+    "dynamicIslandSecondaryButton": 1,
+    "heroFontFamily": "SF Pro Display",
+    "hoverExpandAction": 0,
+    "iconFontFamily": "JetBrainsMono Nerd Font",
+    "islandAutoHideEnabled": false,
+    "islandBackgroundOpacity": 100,
+    "shortcutBindings": [
+        {
+            "key": "TAB",
+            "method": "toggle",
+            "mods": "SUPER ALT",
+            "target": "overview"
+        },
+        {
+            "key": "right",
+            "method": "swipeRight",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "left",
+            "method": "swipeLeft",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "down",
+            "method": "showClock",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "M",
+            "method": "togglePlayer",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "C",
+            "method": "toggleControlCenter",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "N",
+            "method": "toggleNotificationCenter",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "W",
+            "method": "toggleWallpaperPicker",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "D",
+            "method": "toggleApplicationLauncher",
+            "mods": "SUPER",
+            "target": "tide"
+        },
+        {
+            "key": "F",
+            "method": "toggle",
+            "mods": "SUPER",
+            "target": "island"
+        }
+    ],
+    "textFontFamily": "SF Pro Display",
+    "timeFontFamily": "SF Pro Display, SF Pro",
+    "tlpPermissionMode": "password",
+    "tlpSudoPassword": "2008",
+    "wallpaperCustomCommand": "theme_matcher \"$1\"",
+    "wallpaperCustomCommandEnabled": true,
+    "wallpaperLibraryPath": "/home/adrxlv/Imagens/Wallpapers",
+    "wallpaperPywalEnabled": false
+}

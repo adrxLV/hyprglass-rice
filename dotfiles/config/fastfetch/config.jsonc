@@ -1,0 +1,67 @@
+{
+  "display": {
+    "color": {
+      "title": "green"
+    },
+    "separator": " "
+  },
+  "logo": {
+    "color": {
+      "1": "#ffffff"
+    },
+    "padding": {
+      "left": 1,
+      "right": 1,
+      "top": 0
+    },
+    "source": "/home/adrxlv/.config/fastfetch/logo.txt",
+    "type": "file"
+  },
+  "modules": [
+    {
+      "color": {
+        "title": "green"
+      },
+      "type": "title"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": " OS",
+      "keyColor": "cyan",
+      "type": "os"
+    },
+    {
+      "key": "󰌽 Kernel",
+      "keyColor": "blue",
+      "type": "kernel"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": " WM",
+      "keyColor": "yellow",
+      "type": "wm"
+    },
+    {
+      "format": "{pretty-name}",
+      "key": " Shell",
+      "keyColor": "magenta",
+      "type": "shell"
+    },
+    {
+      "key": "󰔚 Uptime",
+      "keyColor": "blue",
+      "type": "uptime"
+    },
+    {
+      "format": "{used} / {total}",
+      "key": " Ram",
+      "keyColor": "green",
+      "type": "memory"
+    },
+    {
+      "key": "󰸱 Color",
+      "symbol": "circle",
+      "type": "colors"
+    }
+  ]
+}

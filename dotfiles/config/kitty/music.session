@@ -1,0 +1,4 @@
+# Duas colunas: controlo compacto à esquerda e letra contextual à direita.
+layout tall
+launch /home/adrxlv/.local/bin/music-dashboard
+launch sptlrx

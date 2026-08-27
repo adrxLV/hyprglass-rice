@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+REC_DIR="$HOME/Videos/Recordings"
+
+if pgrep -x wf-recorder > /dev/null; then
+    pkill -INT -x wf-recorder
+    notify-send "Tide" "Gravação de ecrã parada e guardada em ~/Videos/Recordings" -i video-x-generic
+else
+    sleep 0.2
+    mkdir -p "$REC_DIR"
+    FILENAME="$REC_DIR/rec_$(date +%Y%m%d_%H%M%S).mp4"
+    setsid -f wf-recorder --pixel-format yuv420p -y -f "$FILENAME" < /dev/null > /dev/null 2>&1
+    notify-send "Tide" "Gravação de ecrã iniciada..." -i media-record
+fi

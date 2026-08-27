@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+DIR="$HOME/Pictures/Screenshots"
+mkdir -p "$DIR"
+FILE="$DIR/screenshot_$(date +%Y%m%d_%H%M%S).png"
+
+sleep 0.2
+
+REGION=$(slurp)
+if [ -n "$REGION" ]; then
+    grim -g "$REGION" "$FILE"
+    if [ -f "$FILE" ]; then
+        wl-copy --type image/png < "$FILE"
+        notify-send "Tide" "Captura de área guardada em ~/Pictures/Screenshots" -i "$FILE"
+    fi
+fi

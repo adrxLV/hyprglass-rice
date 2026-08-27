@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+sleep 0.2
+COLOR=$(hyprpicker -a)
+if [ -n "$COLOR" ]; then
+    notify-send "Tide" "Cor copiada para a área de transferência: $COLOR" -i color-picker
+fi

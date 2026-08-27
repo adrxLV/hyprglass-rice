@@ -1,0 +1,72 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  ARCH  
+//
+//  by Bina
+
+
+// execute with: fastfetch --colors-block-range-start 9 --colors-block-width 3 --title-format "Hello, {#31}{user-name}{#}"
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+      "source": "arch_small",
+      "padding": {
+          "top": 1,
+          "right": 3
+      }
+  },
+  "display": {
+      "color": {"keys": "#e0610c", "title": "#e0610c"},
+      "separator": " "
+  },
+  "modules": [
+"break",
+"break",
+{
+          "type": "title",
+          "keyWidth": 10
+      },
+      "break",
+      {
+          "type": "os",
+          "key": " ",
+          "keyColor": "#e0610c",  // = color3
+      },
+      {
+          "type": "kernel",
+          "key": " ",
+          "keyColor": "#e0610c",
+      },
+      {
+          "type": "shell",
+          "key": " ",
+          "keyColor": "#e0610c", 
+      },
+      {
+          "type": "terminal",
+          "key": " ",
+          "keyColor": "#e0610c", 
+      },
+      {
+          "type": "wm",
+          "key": " ",
+          "keyColor": "#e0610c", 
+      },
+      {
+          "type": "uptime",
+          "key": " ",
+          "keyColor": "#e0610c", 
+      },
+      // {
+      //     "type": "media",
+      //     "key": "󰝚 ",
+      //     "keyColor": "#e0610c", 
+      // },
+      "break",
+      "colors",
+      "break",
+      "break",
+  ]
+}

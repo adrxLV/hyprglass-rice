@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+/usr/bin/quickshell ipc --any-display -p "$HOME/.local/share/tide-island" call clipboard toggle

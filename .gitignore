@@ -1,0 +1,4 @@
+pack.sh
+build_temp/
+.DS_Store
+*.log
