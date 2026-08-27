@@ -15,8 +15,12 @@
 
 ## 🎥 Preview & Demo
 
+
+
+
+
 <div align="center">
-  <video src="rec_20260813_001342.mp4" controls width="100%" poster="preview.jpg">
+  <video src="https://github.com/user-attachments/assets/a4157f71-cb64-4ffc-8023-7c9de36da707" controls width="100%" poster="preview.jpg">
     Your browser does not support HTML5 video playback.
   </video>
   <p><i>Live demonstration of Tide Island Rice, Apple LiquidGlass shaders, and instant theme switching.</i></p>
